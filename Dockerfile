@@ -8,7 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build:docker
 
 EXPOSE 8080
 EXPOSE 3000
